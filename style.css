@@ -15,8 +15,6 @@
     width: 110px;
     height: 15px;
 }
-/* nav */
-
 /* hover dropdown menu */
 .ms_dropdown-hover:hover .ms_text-hover{ 
     color: #0271d1;
@@ -31,19 +29,45 @@
     display: none;
 }
 .ms_toggle-open{
+    transform: rotate(180deg);
     display: none;
     width: 15px;
     height: 15px;
 }
 .ms_toggle-close{
-    transform: rotate(180deg);
     width: 15px;
     height: 15px;
+}
+.ms_play-menu:hover{
+    box-shadow: 1px 1px 10px 5px rgb(173, 173, 173);
+}
+/* dropdown */
+.ms_dropdown-border{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 10px;
+}
+.ms_dropdown img{
+    width: 60px;
+    margin: 0 10px;
+}
+.ms_dropdown span{
+    text-align: center;
+}
+.ms_play-menu{
+    text-align: center;
+}
+/* dropdown sublink */
+.ms_sublink li a{
+    text-decoration: none;
+    color: black;
+}
+.ms_sublink li:hover a{
+    color: #0271d1;
 }
 /* button nav */
 .ms_button-type1{
     color: white;
-    padding: 0 10px;
+    width: 70px;
     background-color: rgb(58, 58, 58);
     border-radius: 30px;
     text-align: center;
@@ -51,13 +75,13 @@
 }
 .ms_button-hover:hover .ms_button-type1{
     border: 3px solid white;
-    transition: 0.2s;
+    transition: 0.1s ease-in;
 }
 .ms_backgroud-button1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 82px;
+    width: 80px;
     height: 38px;
     background-color: rgb(58, 58, 58);
     border-radius: 60px;
