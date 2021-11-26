@@ -3,6 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 /* header logo */
 .sony{
     width: 100%;
@@ -64,18 +67,13 @@
 .ms_sublink li:hover a{
     color: #0271d1;
 }
-/* button nav */
+/* button nav lg/sm*/
 .ms_button-type1{
     color: white;
     width: 70px;
     background-color: rgb(58, 58, 58);
     border-radius: 30px;
     text-align: center;
-    vertical-align: middle;
-}
-.ms_button-hover:hover .ms_button-type1{
-    border: 3px solid white;
-    transition: 0.1s ease-in;
 }
 .ms_backgroud-button1{
     display: flex;
@@ -85,9 +83,36 @@
     height: 38px;
     background-color: rgb(58, 58, 58);
     border-radius: 60px;
+    text-decoration: none;
+}
+.ms_button-hover:hover .ms_button-type1{
+    border: 3px solid white;
+    transition: 0.1s ease-in;
+}
+/* button nav sm */
+.ms_button-out-sm{
+    margin-top: 5px;
+    width: 50%;
+}
+.ms_button-in-sm{
+    width: 97%;
 }
 /* icona search */
 .ms_search-dim{
     width: 5%;
     height: 20px;
+}
+.ms_search{
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 10px;
+    line-height: 35px;
+    vertical-align: middle;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.ms_margin{
+    margin-right: 10px;
 }
