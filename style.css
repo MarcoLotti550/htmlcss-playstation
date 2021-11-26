@@ -8,9 +8,13 @@ a{
 }
 /* header logo */
 .sony{
+    top: 0px;
     width: 100%;
     height: 35px;
     background-color: black;
+}
+header nav{
+    top: 35px;
 }
 .sony img{
     float: right;
@@ -50,7 +54,7 @@ a{
     padding-bottom: 10px;
 }
 .ms_dropdown img{
-    width: 60px;
+    width: 100px;
     margin: 0 10px;
 }
 .ms_dropdown span{
@@ -69,19 +73,21 @@ a{
 }
 /* button nav lg/sm*/
 .ms_button-type1{
+    display: block;
     color: white;
-    width: 70px;
-    background-color: rgb(58, 58, 58);
+    padding: 5px 10px;
     border-radius: 30px;
     text-align: center;
+}
+.ms_nav-button-color{
+    background-color: rgb(58, 58, 58);
 }
 .ms_backgroud-button1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 38px;
-    background-color: rgb(58, 58, 58);
+    padding: 0 5px;
+    height: 48px;
     border-radius: 60px;
     text-decoration: none;
 }
@@ -99,7 +105,7 @@ a{
 }
 /* icona search */
 .ms_search-dim{
-    width: 5%;
+    width: 20px;
     height: 20px;
 }
 .ms_search{
@@ -116,3 +122,65 @@ a{
 .ms_margin{
     margin-right: 10px;
 }
+/* main */
+main{
+    margin-top: 111px;
+}
+/* jumbo */
+.jumbo{
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+}
+.jumbo h1{
+    font-weight: bold;
+}
+.ms_w-5{
+    margin-top: 20px;
+    width: 120px;
+}
+.ms_main-button-color{
+    background-color: rgb(255, 102, 0);
+}
+.jumbo .jumbotron img{
+    width: 300px;
+}
+.ms_w-90{
+    width: 90%;
+    height: 100%;
+}
+.jumbotron{
+    height: 100%;
+}
+.jumbo h1,
+.jumbo p,
+.jumbo img,
+.jumbo .ms_button-hover{
+    margin-top: 40px;
+}
+/* background jumbo */
+.ms_background-game1{
+    background-image:url(img/jumbo-bg.png);
+}
+.ms_background-game2{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+/* selezione background jumbo */
+.ms_selector{
+    padding-top: 35px;
+    height: 180px;
+}
+.ms_select-banner img{
+    width: 180px;
+    border-radius: 20px;
+}
+.ms_select-game:hover img{
+    border-radius: 20px;
+    transition: 0.2s;
+    transform: scale(1.1) translateY(-10px);
+    border: 3px solid rgb(70, 183, 221);
+    padding: 1px;
+}
+/* sezione playstation 5 */
+

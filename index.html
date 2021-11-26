@@ -12,8 +12,8 @@
 </head>
 <body>
 <!-- menù nav -->
-    <header>
-      <div class="sony"><img src="img/sony_logo.svg" alt=""> </div>
+    <header >
+      <div class="sony position-fixed"><img src="img/sony_logo.svg" alt=""> </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed w-100">
         <div class="container-fluid"> 
           <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
@@ -28,7 +28,7 @@
                   <img class="ms_toggle-close" src="img/chevron-down-solid.svg" alt="">
                   <img class="ms_toggle-open" src="img/chevron-down-solid-hover.svg" alt="">
                 </a>
-                <ul class="dropdown-menu border-0 w-100 text-lg-center" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu border-0 rounded-0 w-100 text-lg-center my-0" aria-labelledby="navbarDropdown">
                   <ul class="ms_dropdown-border ms_dropdown">
                     <li class="d-inline-block ms_play-menu">
                       <div><img src="img/play-menu-ico.png" alt=""></div>
@@ -56,7 +56,7 @@
                   <img class="ms_toggle-close" src="img/chevron-down-solid.svg" alt="">
                   <img class="ms_toggle-open" src="img/chevron-down-solid-hover.svg" alt="">
                 </a>
-                <ul class="dropdown-menu border-0 w-100 text-lg-center" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu border-0 rounded-0 w-100 text-lg-center my-0" aria-labelledby="navbarDropdown">
                   <ul class="ms_dropdown-border ms_dropdown">
                     <li class="d-inline-block ms_play-menu">
                       <div><img src="img/play-menu-ico.png" alt=""></div>
@@ -84,7 +84,7 @@
                   <img class="ms_toggle-close" src="img/chevron-down-solid.svg" alt="">
                   <img class="ms_toggle-open" src="img/chevron-down-solid-hover.svg" alt="">
                 </a>
-                <ul class="dropdown-menu border-0 w-100 text-lg-center" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu border-0 rounded-0 w-100 text-lg-center my-0" aria-labelledby="navbarDropdown">
                   <ul class="ms_dropdown-border ms_dropdown">
                     <li class="d-inline-block ms_play-menu">
                       <div><img src="img/play-menu-ico.png" alt=""></div>
@@ -112,7 +112,7 @@
                   <img class="ms_toggle-close" src="img/chevron-down-solid.svg" alt="">
                   <img class="ms_toggle-open" src="img/chevron-down-solid-hover.svg" alt="">
                 </a>
-                <ul class="dropdown-menu border-0 w-100 text-lg-center" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu border-0 rounded-0 w-100 text-lg-center my-0" aria-labelledby="navbarDropdown">
                   <ul class="ms_dropdown-border ms_dropdown">
                     <li class="d-inline-block ms_play-menu">
                       <div><img src="img/play-menu-ico.png" alt=""></div>
@@ -140,7 +140,7 @@
                   <img class="ms_toggle-close" src="img/chevron-down-solid.svg" alt="">
                   <img class="ms_toggle-open" src="img/chevron-down-solid-hover.svg" alt="">
                 </a>
-                <ul class="dropdown-menu border-0 w-100 text-lg-center" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu border-0 rounded-0 w-100 text-lg-center my-0" aria-labelledby="navbarDropdown">
                   <ul class="ms_dropdown-border ms_dropdown">
                     <li class="d-inline-block ms_play-menu">
                       <div><img src="img/play-menu-ico.png" alt=""></div>
@@ -168,7 +168,7 @@
                   <img class="ms_toggle-close" src="img/chevron-down-solid.svg" alt="">
                   <img class="ms_toggle-open" src="img/chevron-down-solid-hover.svg" alt="">
                 </a>
-                <ul class="dropdown-menu border-0 w-100 text-lg-center" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu border-0 rounded-0 w-100 text-lg-center my-0" aria-labelledby="navbarDropdown">
                   <ul class="ms_dropdown-border ms_dropdown">
                     <li class="d-inline-block ms_play-menu">
                       <div><img src="img/play-menu-ico.png" alt=""></div>
@@ -199,8 +199,8 @@
                     <img class="ms_toggle-close" src="img/chevron-down-solid.svg" alt="">
                     <img class="ms_toggle-open" src="img/chevron-down-solid-hover.svg" alt="">
                   </a>
-                  <ul class="dropdown-menu border-0 w-100 text-lg-center" aria-labelledby="navbarDropdown">
-                    <ul class="ms_dropdown-border ms_dropdown">
+                  <ul class="dropdown-menu border-0 rounded-0 w-100 text-lg-center my-0" aria-labelledby="navbarDropdown">
+                    <ul class=" ms_dropdown">
                       <li class="d-inline-block ms_play-menu">
                         <div><img src="img/play-menu-ico.png" alt=""></div>
                         <span>PS7</span> 
@@ -217,16 +217,20 @@
                   </ul> 
                 </li>
                 <li class="d-lg-flex align-items-center">
-                  <ul class="list-unstyled ms_button-hover ms_margin">
+                  <ul class="list-unstyled  ms_margin">
                     <li>
-                      <a class="d-none d-lg-flex ms_backgroud-button1" href="">
-                        <div class="ms_button-type1">Accedi</div>
-                      </a>
+                      <div class="ms_button-hover">
+                        <a class="d-none d-lg-flex ms_backgroud-button1 ms_nav-button-color" href="">
+                          <div class="ms_button-type1 ms_nav-button-color">Accedi</div>
+                        </a>
+                      </div>
                     </li>
                     <li>
-                      <a class="d-lg-none ms_backgroud-button1 ms_button-out-sm" href="">
-                        <div class="ms_button-type1 ms_button-in-sm">Accedi</div>
-                      </a>
+                      <div class="ms_button-hover">
+                        <a class="d-lg-none ms_backgroud-button1 ms_button-out-sm ms_nav-button-color ms_nav-button-color" href="">
+                          <div class="ms_button-type1 ms_button-in-sm ms_nav-button-color ms_nav-button-color">Accedi</div>
+                        </a>  
+                      </div>        
                     </li>          
                   </ul>
                   <ul class="list-unstyled">
@@ -242,7 +246,56 @@
     </header>
 <!-- content main -->
     <main>
-
+<!-- jumbo -->
+      <section class="jumbo ms_background-game1">
+        <div class="ms_w-90 mx-auto">
+          <div class="row jumbotron align-content-end pb-5">
+            <div class="col-12 col-lg-5">
+              <img src="img/returnal-hero-banner-logo.png" alt="">
+              <h1 class="display-4">Rompi il cerchio</h1>
+              <p class="lead">Rialzati dopo ogni sconfitta e affronta una nuova sfida ogni rinascita in uqesto esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+              <div class="ms_button-hover ms_w-5">
+                <a class="d-flex ms_backgroud-button1 ms_main-button-color" href="">
+                  <div class="ms_button-type1 ms_main-button-color">Acquista ora</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- selezione background jumbo -->
+      <section class="container-fluid">
+        <div class="container ms_selector">
+          <div class="row ms_select-banner">
+            <div class="col-6 col-sm-4 col-lg-2 ms_select-game"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-lg-2 ms_select-game"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-lg-2 ms_select-game"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-lg-2 ms_select-game"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-lg-2 ms_select-game"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-lg-2 ms_select-game"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+          </div>
+        </div>
+      </section>  
+<!-- sezione playstation 5 -->
+      <section>
+        
+      </section>
+      <section class="jumbo ms_background-game2">
+        <div class="ms_w-90 mx-auto">
+          <div class="row jumbotron align-content-end pb-5">
+            <div class="col-12 col-lg-5">
+              <img src="img/it-takes-two-logo.png" alt="">
+              <h1 class="display-4">Un'avventura cooperativa selvaggia ti attende</h1>
+              <p class="lead">Rialzati dopo ogni sconfitta e affronta una nuova sfida ogni rinascita in uqesto esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+              <div class="ms_button-hover ms_w-5">
+                <a class="d-flex ms_backgroud-button1 ms_main-button-color" href="">
+                  <div class="ms_button-type1 ms_main-button-color">Acquista ora</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 <!-- info e copyright -->
     <footer>
