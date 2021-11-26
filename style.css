@@ -72,7 +72,7 @@ header nav{
 .ms_sublink li:hover a{
     color: #0271d1;
 }
-/* button nav lg/sm*/
+/* button nav lg/md*/
 .ms_button-type1{
     display: block;
     color: white;
@@ -209,6 +209,16 @@ main{
 }
 .ms_w-button2{
     width: 195px;
+}
+.ms_select-banner-console img{
+    width: 90%;
+    padding-bottom: 5px;
+}
+.ms_select-img:hover img{
+    transition: 0.2s;
+    transform: scale(1.1) translateY(-20px);
+    border-bottom: 3px solid rgb(70, 183, 221);
+    padding: 1px;
 }
 /* dimensione testo sezione playstation 5 */
 @media all and (min-width:768px){
