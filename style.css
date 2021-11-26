@@ -173,6 +173,7 @@ main{
     min-height: 180px;
 }
 .ms_select-banner img{
+    cursor: pointer;
     width: 100%;
     border-radius: 20px;
 }
@@ -211,6 +212,7 @@ main{
     width: 195px;
 }
 .ms_select-banner-console img{
+    cursor: pointer;
     width: 90%;
     padding-bottom: 5px;
 }
@@ -220,7 +222,26 @@ main{
     border-bottom: 3px solid rgb(70, 183, 221);
     padding: 1px;
 }
-/* dimensione testo sezione playstation 5 */
+/* sezione nuove uscite */
+.ms_background-new{
+    background-color: rgb(49, 49, 49);
+}
+.ms_background-new span{
+    color: white;
+    font-size: 1rem;
+}
+.ms_text-top{
+    font-size: 1rem;
+    color: white;
+}
+.ms_margin1{
+    margin-top: 50px;
+}
+.ms_margin1 span{
+    margin-bottom: 30px;
+}
+
+/* dimensione testo main*/
 @media all and (min-width:768px){
     .ms_section-title h1,
     .ms_section-mid h1{
@@ -234,5 +255,15 @@ main{
     .ms_section-title span{
         color: rgb(0, 119, 255);
         font-size: 1.2rem;
+    }
+    .ms_background-new span{
+        color: white;
+        font-size: 1.3rem;
+    }
+}
+@media all and (min-width:992px){
+    .ms_text-top{
+        font-size: 2rem;
+        color: white;
     }
 }
