@@ -15,6 +15,10 @@ a{
 }
 header nav{
     top: 35px;
+    font-size: 1.5rem;
+}
+header nav,
+.sony{
     z-index: 1000;
 }
 .sony img{
@@ -87,8 +91,9 @@ header nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 5px;
-    height: 48px;
+    padding: 5px;
+    height: 50px;
+    min-height: 100%;
     border-radius: 60px;
     text-decoration: none;
 }
@@ -121,7 +126,7 @@ header nav{
     border-radius: 5px;
 }
 .ms_margin{
-    margin-right: 10px;
+    margin-right: 15px
 }
 /* main */
 main{
@@ -302,6 +307,24 @@ main{
     }
 }
 @media all and (min-width:992px){
+    .ms_margin{
+        margin-right: 5px;
+    }
+    header nav{
+        font-size: 1rem;
+    }
+    .ms_text-top{
+        font-size: 2rem;
+        color: white;
+    }
+    .ms_button-type1{
+        padding: 3px 10px;
+    }
+}
+@media all and (min-width:1176px){
+    header nav{
+        font-size: 1.2rem;
+    }
     .ms_text-top{
         font-size: 2rem;
         color: white;
