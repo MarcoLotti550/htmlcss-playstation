@@ -51,7 +51,7 @@ header nav,
     height: 15px;
 }
 .ms_play-menu:hover{
-    box-shadow: 1px 1px 10px 5px rgb(173, 173, 173);
+    box-shadow: 1px 1px 10px 4px rgb(173, 173, 173);
 }
 /* dropdown */
 .ms_dropdown-border{
@@ -59,8 +59,8 @@ header nav,
     padding-bottom: 10px;
 }
 .ms_dropdown img{
-    width: 100px;
-    margin: 0 10px;
+    width: 60px;
+    margin: 0 5px;
 }
 .ms_dropdown span{
     text-align: center;
@@ -72,6 +72,7 @@ header nav,
 .ms_sublink li a{
     text-decoration: none;
     color: black;
+    font-size: 0.9rem;
 }
 .ms_sublink li:hover a{
     color: #0271d1;
@@ -91,8 +92,8 @@ header nav,
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    height: 50px;
+    padding: 0 5px;
+    height: 45px;
     min-height: 100%;
     border-radius: 60px;
     text-decoration: none;
@@ -105,9 +106,11 @@ header nav,
 .ms_button-out-sm{
     margin-top: 5px;
     width: 50%;
+    height: 50px;
 }
 .ms_button-in-sm{
-    width: 97%;
+    width: 100%;
+    padding: 0;
 }
 /* icona search */
 .ms_search-dim{
@@ -183,7 +186,6 @@ main{
     transition: 0.2s;
     transform: scale(1.1) translateY(-10px);
     border: 3px solid rgb(70, 183, 221);
-    padding: 1px;
 }
 /* sezione playstation 5 */
 .ms_section-title span{
@@ -212,6 +214,9 @@ main{
 .ms_w-button2{
     width: 195px;
 }
+.ms_select-banner-console{
+    min-height: 200px;
+}
 .ms_select-banner-console img{
     cursor: pointer;
     width: 90%;
@@ -221,7 +226,6 @@ main{
     transition: 0.2s;
     transform: scale(1.1) translateY(-20px);
     border-bottom: 3px solid rgb(70, 183, 221);
-    padding: 1px;
 }
 /* sezione nuove uscite */
 .ms_background-new{
@@ -370,6 +374,13 @@ main{
     }
     .ms_section-new-img p{
         margin-bottom: 20px;
+    }
+    .ms_dropdown img{
+        width: 70px;
+        margin: 0 10px;
+    }
+    .ms_sublink li a{
+        font-size: 1.1rem;
     }
 }
 @media all and (min-width:992px){
