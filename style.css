@@ -299,6 +299,10 @@ main{
 .ms_button-plus-hover:hover .ms_button-plus{
     box-shadow: 0px 0px 10px 5px rgb(128, 128, 128);
 }
+/* sezione sconti */
+.ms_sale-banners img{
+    width: 100%;
+}
 /* dimensione testo main*/
 @media all and (min-width:768px){
     .ms_section-title h1,
