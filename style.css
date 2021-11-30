@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 a{
-    text-decoration: none;
+    text-decoration: none!important;
 }
 /* header logo */
 .sony{
@@ -274,6 +274,31 @@ main{
 .ms_section-new-img p{
     margin-bottom: 20px;
 }
+/* sezione plus */
+.ms_background-plus{
+    min-height: 200px;
+    background-color: rgb(192, 192, 192);
+}
+.ms_button-plus{
+    color: blue;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 40px;
+    width: 200px;
+    padding: 5px 10px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50px;
+}
+.ms_logo-plus{
+    width: 250px;
+}
+.ms_img-game-plus img{
+    width: 100%;
+}
+.ms_button-plus-hover:hover .ms_button-plus{
+    box-shadow: 0px 0px 10px 5px rgb(128, 128, 128);
+}
 /* dimensione testo main*/
 @media all and (min-width:768px){
     .ms_section-title h1,
@@ -301,6 +326,7 @@ main{
     .ms_section-new-img p{
         margin-bottom: 20px;
     }
+
 }
 @media all and (min-width:992px){
     .ms_margin{
@@ -316,6 +342,18 @@ main{
     .ms_button-type1{
         padding: 3px 10px;
     }
+    .ms_logo-plus{
+        width: 300px;
+    }
+    .ms_background-plus p{
+        font-size: 1.5rem;
+    }
+    .ms_background-plus a{
+        font-size: 1.2rem;
+    }
+    .ms_button-plus{
+        width: 250px;
+    }
 }
 @media all and (min-width:1176px){
     header nav{
@@ -324,5 +362,8 @@ main{
     .ms_text-top{
         font-size: 2rem;
         color: white;
+    }
+    .ms_logo-plus{
+        width: 400px;
     }
 }
